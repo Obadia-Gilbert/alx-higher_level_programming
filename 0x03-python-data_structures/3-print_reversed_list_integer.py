@@ -7,5 +7,5 @@ def print_reversed_list_integer(my_list=[]):
     """Print all integers of a list in reverse order."""
     #if isinstance(my_list, list):
        # my_list.reverse()
-    for i in reversed(list(range(len(my_list)))):
+    for i in list(reversed(range(len(my_list)))):
         print("{:d}".format(i))
